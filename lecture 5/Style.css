@@ -1,0 +1,29 @@
+.container {
+    width: 460px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: teal;
+    margin: 1px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+} 
+
+.box:hover {
+    background-color: aquamarine;
+}
+
+h1 {
+    color: rgb(173, 45, 173);
+}
